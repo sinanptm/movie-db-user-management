@@ -1,0 +1,344 @@
+<title><%= title %></title>
+<% include('../layouts/header.ejs') %>
+
+<section class="sec">
+  <div class="login hide-login">
+    <form
+      class="login-container hide-form"
+      action="/register"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <img
+        src="https://banner2.cleanpng.com/20180329/zue/kisspng-computer-icons-user-profile-person-5abd85306ff7f7.0592226715223698404586.jpg"
+        alt="Sign In"
+      />
+      <div class="input-container hide-section">
+        <label class="lss" for="name"><h2>User Registration</h2></label>
+        <% if (typeof msg !== 'undefined') { %>
+        <label for="name"style="color:#011c3a"><%= msg %></label>
+        <% } %>
+        <div class="form-group">
+          <input
+            required
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            required
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <small class="form-text text-left " style="display: none; color: red;" id="error"></small>
+        </div>
+        
+        <div class="form-group">
+          <input required type="file" class="custom-file-input" id="exampleInputFile" name="file" />
+        </div>
+
+        <div class="form-group">
+          <input
+            required
+            type="password"
+            id="password"
+            name="password"
+            autocomplete="off"
+            placeholder="Enter your password"
+          />
+          <small class="form-text text-left " style="display: none; color: red;" id="errorpass"></small>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Sign Up" />
+        </div>
+        <div class="already-account">
+          <p>Already have an account? <a href="/login">Login</a></p>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<style>
+
+.sec {
+    position: relative;
+    height: 680px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+body {
+    background: linear-gradient(45deg, #5d5c61, #379683);
+    font-family: "Open Sans", sans-serif;
+    color: #5d5c61; /* Changed the text color */
+}
+
+form {
+    text-align: center;
+    height: fit-content;
+    padding: 30px;
+    z-index: 3;
+}
+
+
+.login {
+    height: fit-content;
+    width: 400px;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 5px 6px #00000036;
+    transform: translate(-50%, -50%);
+    border-radius: 22px;
+    overflow: hidden;
+    transition: 1s;
+    background: linear-gradient(45deg, #7395ae, #557a95);
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.input-container {
+    opacity: 1;
+    transition: 1s;
+}
+
+.alter {
+    color: #b1a296;
+}
+
+img {
+    width: 80px;
+    border-radius: 50%;
+    padding: 12px;
+    box-shadow: 0 2px 6px #001a348a;
+}
+
+.login-header {
+    background: #5d5c61;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top: 32px;
+}
+
+.lss {
+    color: w;
+}
+
+.login-container {
+    background: linear-gradient(45deg, #557a95, #7395ae);
+    padding: 40px 30px;
+    transition: 1s;
+    margin-bottom: 0;
+}
+
+.login p {
+    padding: 12px;
+}
+
+input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 0 0 2px; /* Set bottom border only */
+    border-style: solid;
+    padding: 6px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+    background: none; /* Set background to none */
+    margin-bottom: 20px; /* Add margin to create space between fields */
+}
+
+input::placeholder {
+    color: #aabbcc; /* Specify the desired color */
+}
+
+.login input[type="email"],
+.login input[type="password"],
+.login input[type="file"] {
+    border-color: #7395ae; /* Set border color */
+    color: #f3f4f5;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus,
+.login input[type="file"]:focus {
+    border-color: #7395ae;
+}
+
+input[type="submit"] {
+    background-color: #305d7c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #2a3943;
+    transform: scale(1.1);
+}
+/* Animation */
+/* .hide-section {
+    opacity: 0;
+}
+
+.hide-form {
+    padding: 0;
+    padding-top: 27px;
+}
+
+.hide-login {
+    width: 165px;
+    height: 167px;
+    border-radius: 50%;
+    background-color: #306293;
+} */
+
+.btn {
+    background-color: #305d7c;
+    border: none;
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-hover {
+    background-color: #2a3943;
+    transform: scale(1.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-group #error {
+    position: absolute;
+    bottom: -20px; /* Adjust this value to control the distance from the input field */
+    left: 0;
+    width: 100%;
+    margin-left: 0%;
+    font-size: 0.8em;
+    color: red; /* Set the color for error messages */
+}
+
+.form-group #errorpass {
+    position: absolute;
+    bottom: -20px; /* Adjust this value to control the distance from the input field */
+    left: 0;
+    width: 100%;
+    margin-left: 0%;
+    font-size: 0.8em;
+    color: red; /* Set the color for error messages */
+}
+
+.already-account {
+    margin-top: 20px;
+    color: #305d7c; /* Your color theme */
+}
+
+.already-account a {
+    color: #305d7c; /* Your color theme */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.already-account a:hover {
+    color: #482aaa;
+    text-decoration: underline;
+    font-size: large;
+    transform: scale(.1);
+}
+
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const section = document.querySelector(".hide-section");
+  const formContainer = document.querySelector(".login-container");
+  const loginContainer = document.querySelector(".login");
+  const profile = document.querySelector("img");
+  const emailInput = document.querySelector('input[id="email"]');
+  const errorParagraphEmail = document.getElementById('error');
+  const passwordInput = document.querySelector('input[id="password"]');
+  const errorParagraphPassword = document.getElementById('errorpass');
+
+  // Toggle login form visibility on profile image click
+  profile.addEventListener("click", () => {
+    loginContainer.classList.toggle("hide-login");
+    formContainer.classList.toggle("hide-form");
+
+    setTimeout(() => {
+      section.classList.toggle("hide-section");
+    }, 1000);
+  });
+
+  // Email input validation
+  emailInput.addEventListener("input", function (event) {
+    const enteredEmail = event.target.value;
+
+    if (!isValidEmail(enteredEmail)) {
+      errorParagraphEmail.textContent = "Invalid email address format";
+      errorParagraphEmail.style.display = "block";
+      emailInput.style.border = "1px solid red";
+    } else {
+      errorParagraphEmail.textContent = "";
+      errorParagraphEmail.style.display = "none";
+      emailInput.style.border = "";
+    }
+  });
+
+  // Password input validation
+  passwordInput.addEventListener("input", function (event) {
+    const enteredPassword = event.target.value;
+
+    if (!isValidPassword(enteredPassword)) {
+      errorParagraphPassword.textContent =
+        "Password must be at least 4 characters";
+      errorParagraphPassword.style.display = "block";
+      passwordInput.style.border = "1px solid red";
+    } else {
+      errorParagraphPassword.textContent = "";
+      errorParagraphPassword.style.display = "none";
+      passwordInput.style.border = "";
+    }
+  });
+
+  // Function to validate email format
+  function isValidEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
+
+  // Function to validate password (replace with your logic)
+  function isValidPassword(password) {
+    // Allow any characters, just ensure the length is at least 4
+    return password.length >= 4;
+  }
+});
+
+</script>
+
+<% include('../layouts/footer.ejs') %>
