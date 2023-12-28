@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9e5"
+  },
+  "category": "Animes",
+  "name": "One Piece",
+  "description": "Monkey D. Luffy sets out on a journey to become the Pirate King and find the legendary treasure known as One Piece, accompanied by his diverse crew of pirates.",
+  "src": "https://w0.peakpx.com/wallpaper/476/794/HD-wallpaper-one-piece-franky-sanji-wano-anime-luffy-ussop-zoro-nami-brook-chopper-robin-manga.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9e6"
+  },
+  "category": "Animes",
+  "name": "Naruto",
+  "description": "Naruto Uzumaki, a young ninja with dreams of becoming the strongest ninja and earning the title of Hokage, faces various challenges and adversaries along his journey.",
+  "src": "https://wallpapers.com/images/featured/naruto-shippuden-rxxyiybobk8m0q7u.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9e7"
+  },
+  "category": "Animes",
+  "name": "Attack on Titan",
+  "description": "In a world where humanity resides within enormous walled cities to protect themselves from Titans, gigantic humanoid creatures, the story follows Eren Yeager and his friends who join the military to fight the Titans.",
+  "src": "https://w0.peakpx.com/wallpaper/917/626/HD-wallpaper-attack-on-titan-poster-digital-2022.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9e8"
+  },
+  "category": "Animes",
+  "name": "My Hero Academia",
+  "description": "In a world where nearly every human has some form of superpower, or 'quirk,' the story follows Izuku Midoriya, a Quirkless boy who dreams of becoming a hero.",
+  "src": "https://wallpapers.com/images/featured/my-hero-academia-2rsvvj40ynbffab0.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9e9"
+  },
+  "category": "Animes",
+  "name": "Demon Slayer: Kimetsu no Yaiba",
+  "description": "Tanjiro Kamado becomes a demon slayer to avenge his family and cure his demon-turned sister. The story follows his journey battling demons and searching for a cure.",
+  "src": "https://w0.peakpx.com/wallpaper/358/749/HD-wallpaper-demon-slayer-manga-anime-kny.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9ea"
+  },
+  "category": "Animes",
+  "name": "One Punch Man",
+  "description": "Saitama, a hero who can defeat any opponent with a single punch, seeks to find a worthy opponent to challenge him. Despite his overwhelming strength, he struggles with a sense of boredom and lack of recognition.",
+  "src": "https://c4.wallpaperflare.com/wallpaper/519/207/806/saitama-one-punch-man-anime-wallpaper-preview.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9eb"
+  },
+  "category": "Animes",
+  "name": "Fullmetal Alchemist: Brotherhood",
+  "description": "Two brothers, Edward and Alphonse Elric, use alchemy in their quest to search for the Philosopher's Stone to restore their bodies after a failed alchemical experiment.",
+  "src": "https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700523075.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9ec"
+  },
+  "category": "Animes",
+  "name": "Death Note",
+  "description": "Light Yagami discovers a mysterious notebook that allows him to kill anyone whose name he writes in it. He sets out to create a utopia free from criminals, leading to a high-stakes cat-and-mouse game with a brilliant detective known as L.",
+  "src": "https://w0.peakpx.com/wallpaper/943/792/HD-wallpaper-light-death-note-anime-death-note.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9ed"
+  },
+  "category": "Movies",
+  "name": "Ant-man And The Wast Quantumania",
+  "description": "In the Marvel universe, Ant-Man explores the quantum realm on a new adventure.",
+  "src": "https://cdn.marvel.com/content/1x/antmanandthewaspquantumania_lob_crd_03.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9ee"
+  },
+  "category": "Movies",
+  "name": "Thor: Love and Thunder  First part",
+  "description": "Thor returns, bringing thunderous excitement to the Marvel saga.",
+  "src": "https://cdn.marvel.com/content/1x/thorloveandthunder_lob_crd_04.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9ef"
+  },
+  "category": "Movies",
+  "name": "Doctor Strange in the Multiverse of Madness",
+  "description": "Doctor Strange faces multiverse challenges, unraveling mysteries that transcend reality itself.",
+  "src": "https://cdn.marvel.com/content/1x/doctorstrangeinthemultiverseofmadness_lob_crd_02_3.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9f0"
+  },
+  "category": "Movies",
+  "name": "The Marvel Womens: First part",
+  "description": "'The Marvel Women' captivates audiences with empowering tales of superheroines.",
+  "src": "https://cdn.marvel.com/content/1x/themarvels_lob_crd_05.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9f1"
+  },
+  "category": "Movies",
+  "name": "Guardians of the Galaxy Vol.3",
+  "description": "The Guardians of the Galaxy return for the third volume, promising another cosmic and action-packed journey.",
+  "src": "https://cdn.marvel.com/content/1x/guardiansofthegalaxyvolume3_lob_crd_03.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9f2"
+  },
+  "category": "Movies",
+  "name": "Black Panther: Wakanda Forever",
+  "description": "'Black Panther: Wakanda Forever' explores the legacy of Wakanda and the enduring spirit of T'Challa.",
+  "src": "https://cdn.marvel.com/content/1x/blackpantherwakandaforever_lob_crd_06.jpg"
+},
+{
+  "_id": {
+    "$oid": "658981fe3ed7973da45ce9f3"
+  },
+  "category": "Movies",
+  "name": "The Fifth Element",
+  "description": "Embark on a colorful and action-packed journey in The Fifth Element, a visually striking sci-fi adventure that blends humor, eccentric characters, and a unique vision of the future.",
+  "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpQIRekAxLX-A6w-8-SpIHKY13hZ___AskSRWku_rOCWw5P7tB"
+},
+{
+  "_id": {
+    "$oid": "658a535f46b11bed2f13827a"
+  },
+  "category": "Movies",
+  "name": "Blade Runner 2049",
+  "description": "Immerse yourself in the visually stunning and thought-provoking world of Blade Runner 2049, a sci-fi film that explores complex themes in a dystopian future.",
+  "src": "https://upload.wikimedia.org/wikipedia/en/9/9f/Blade_Runner_%281982_poster%29.png"
+}]
